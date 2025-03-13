@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "822349363431",
+    "project_id": "flutt-listin",
+    "storage_bucket": "flutt-listin.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822349363431:android:596326e2e7b3986cbfca42",
+        "android_client_info": {
+          "package_name": "lima.ricarth.flutter_listin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrGy1JgdAtxNZcpIzU7v7Uwx-2wiOaM-E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

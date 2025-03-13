@@ -1,0 +1,57 @@
+name: flutter_listin
+description: Listin - Feira Fácil!
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Nativo
+  cupertino_icons: ^1.0.2
+
+  # Pacotes Estéticos
+  flutter_native_splash: ^2.4.0
+  flutter_launcher_icons: ^0.14.3
+
+  # Pacotes relacionados ao Firebase
+  uuid: ^4.4.0
+  firebase_core: ^3.12.1
+  cloud_firestore: ^5.6.5
+  firebase_auth: ^5.5.1
+
+# Dependências de desenvolvimento
+dev_dependencies:
+  integration_test:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  test: ^1.24.9
+  mockito: ^5.4.4
+  build_runner: ^2.4.6
+  build_web_compilers: ^3.2.7
+  
+flutter:
+  uses-material-design: true
+
+  assets:
+    - "assets/" 
+
+flutter_native_splash:
+  color: "#cce663"
+  image: assets/logo.png
+  android_12:
+    color: "#cce663"
+    icon_background_color: "#cce663"
+    image: assets/logo_1152.png
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo.png"
+  min_sdk_android: 21

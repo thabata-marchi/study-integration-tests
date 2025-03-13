@@ -1,0 +1,1 @@
+ /Users/thabatamarchi/Studies/Alura/flutter-listin/.dart_tool/flutter_build/0038aa0ff2c49f1c895b854d21dc5996/native_assets.yaml: 
