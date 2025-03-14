@@ -48,3 +48,22 @@ ios/*
 .dart_tool/*
 
 .qodo
+
+
+ios/
+build/ios/
+build/*
+
+# Ignorar arquivos da build iOS
+build/ios/
+
+# Ignorar arquivos sensíveis do iOS
+ios/Runner/GoogleService-Info.plist
+ios/Runner/Info.plist
+ios/Runner/Base.lproj/Main.storyboard
+ios/Runner/Runner-Bridging-Header.h
+
+# Ignorar arquivos gerados automaticamente
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies

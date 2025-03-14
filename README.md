@@ -30,6 +30,7 @@ Este curso é ideal para pessoas desenvolvedoras que já possuam uma boa base em
 - Função `testWidget` para testes de widget;
 
 ![GIF da aplicação em execução](gif.gif)
+
 O mouse está sendo mostrado parado na execução para evidenciar que os "inputs" estão sendo feitos pelo teste de integração, e não por uma interação usual com a aplicação.
 
 ## 🛠️ Abrir e rodar o projeto
