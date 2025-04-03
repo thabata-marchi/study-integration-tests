@@ -34,7 +34,7 @@ dev_dependencies:
   test: ^1.24.9
   mockito: ^5.4.4
   build_runner: ^2.4.6
-  build_web_compilers: ^3.2.7
+  build_web_compilers: ^4.1.3
   
 flutter:
   uses-material-design: true
@@ -55,3 +55,6 @@ flutter_launcher_icons:
   ios: true
   image_path: "assets/logo.png"
   min_sdk_android: 21
+
+dependency_overrides:
+  analyzer: ^6.2.0

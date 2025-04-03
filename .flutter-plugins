@@ -1,9 +1,0 @@
-# This is a generated file; do not edit or check into version control.
-cloud_firestore=/Users/thabatamarchi/.pub-cache/hosted/pub.dev/cloud_firestore-5.6.5/
-cloud_firestore_web=/Users/thabatamarchi/.pub-cache/hosted/pub.dev/cloud_firestore_web-4.4.5/
-firebase_auth=/Users/thabatamarchi/.pub-cache/hosted/pub.dev/firebase_auth-5.5.1/
-firebase_auth_web=/Users/thabatamarchi/.pub-cache/hosted/pub.dev/firebase_auth_web-5.14.1/
-firebase_core=/Users/thabatamarchi/.pub-cache/hosted/pub.dev/firebase_core-3.12.1/
-firebase_core_web=/Users/thabatamarchi/.pub-cache/hosted/pub.dev/firebase_core_web-2.21.1/
-flutter_native_splash=/Users/thabatamarchi/.pub-cache/hosted/pub.dev/flutter_native_splash-2.4.4/
-integration_test=/Users/thabatamarchi/fvm/versions/3.24.3/packages/integration_test/

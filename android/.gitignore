@@ -11,3 +11,7 @@ GeneratedPluginRegistrant.java
 key.properties
 **/*.keystore
 **/*.jks
+
+.dart_tool
+.dart_tool/**
+.flutter-plugins

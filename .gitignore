@@ -67,3 +67,13 @@ ios/Runner/Runner-Bridging-Header.h
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
+
+.dart_tool/
+.dart_tool/**/
+.dart_tool/version
+.flutter-plugins
+
+.dart_tool/
+.build/
+.flutter-plugins
+.flutter-plugins-dependencies

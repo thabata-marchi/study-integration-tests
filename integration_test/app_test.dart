@@ -1,5 +1,6 @@
 import "dart:math";
 
+import "package:firebase_auth/firebase_auth.dart";
 import "package:firebase_core/firebase_core.dart";
 import "package:flutter/material.dart";
 import "package:flutter_listin/_core/constants/listin_keys.dart";
@@ -16,6 +17,7 @@ void main() {
       await Firebase.initializeApp(
         options: DefaultFirebaseOptions.currentPlatform,
       );
+      await FirebaseAuth.instance.signOut();
     });
     testWidgets("Telas de entrar e cadastrar", (tester) async {
       await tester.pumpWidget(MyApp());
