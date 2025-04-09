@@ -1,11 +1,12 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_listin/listins/services/listin_service.dart';
 import 'package:flutter_listin/listins/widgets/home_drawer.dart';
 import 'package:flutter_listin/listins/widgets/home_listin_item.dart';
-import 'package:flutter_listin/listins/services/listin_service.dart';
-import '../models/listin.dart';
+
 import '../components/listin_add_edit_modal.dart';
 import '../components/listin_options_modal.dart';
+import '../models/listin.dart';
 
 class HomeScreen extends StatefulWidget {
   final User user;
